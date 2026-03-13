@@ -1,0 +1,28 @@
+{
+  "name": "clase_04_grupo_a",
+  "version": "1.0.0",
+  "description": "Breve descripción del proyecto y su objetivo.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hernandw/clase-04-modulo-06-grupo-A.git"
+  },
+  "keywords": [],
+  "author": "Williams hernandez",
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/hernandw/clase-04-modulo-06-grupo-A/issues"
+  },
+  "homepage": "https://github.com/hernandw/clase-04-modulo-06-grupo-A#readme",
+  "devDependencies": {
+    "dotenv": "^17.3.1",
+    "nodemon": "^3.1.14"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
