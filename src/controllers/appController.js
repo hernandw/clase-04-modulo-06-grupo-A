@@ -1,13 +1,19 @@
 const home = (req, res) => {
-  res.send("Pagina Principal desde el controller");
+  res.render('home',{
+    nombrePagina: 'Pagina Principal'
+  })
 };
 
 const about = (req, res) => {
-  res.send("Pagina de About");
+  res.render('about',{
+    nombrePagina: 'Pagina de About'
+  })
 };
 
 const contact = (req, res) => {
-  res.send("Pagina de contacto");
+  res.render('contact', {
+    nombrePagina: 'Página de Contacto'
+  })
 };
 
 export { home, about, contact };
